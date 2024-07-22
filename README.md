@@ -34,3 +34,7 @@ node app.js
 ```
 ## Video-Link
 link : https://drive.google.com/file/d/14dasUWs1emhzYuywN3wbSNOrXbfz8tGw/view?usp=drive_link
+
+## Image 
+![image](https://github.com/sanjanaynvsdl/hotelBookingChatbot/assets/142678317/5e708af5-8791-4ebb-bcee-40cafba2f966)
+
