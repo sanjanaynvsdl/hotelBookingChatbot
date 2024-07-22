@@ -6,7 +6,7 @@ const cors = require('cors');
 const chatRoutes = require('./routes/chatRoutes');
 const { sequelize } = require('./models/index');
 
-// // Log the environment variable to verify it's being read correctly
+
 // console.log(`OpenAI API Key: ${process.env.OPENAI_API_KEY}`);
 
 const app = express();

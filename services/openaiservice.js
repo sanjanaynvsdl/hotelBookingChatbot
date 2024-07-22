@@ -33,7 +33,7 @@ const getChatResponse = async (messages) => {
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo", // Use a valid model name here, check OpenAI's available models
+      model: "gpt-3.5-turbo", 
       messages: messages,
       functions: functions,
       function_call: "auto",
@@ -53,7 +53,7 @@ const getChatResponse = async (messages) => {
       }
 
       const secondResponse = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo", // Use the same valid model name here as above
+        model: "gpt-3.5-turbo", 
         messages: [
           ...messages,
           responseMessage,

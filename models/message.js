@@ -1,11 +1,11 @@
-// Assuming your Message model definition in models/Message.js or similar
+
 
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database'); // Adjust path as per your project structure
+const sequelize = require('../config/database'); 
 
 const Message = sequelize.define('Message', {
   content: {
-    type: DataTypes.STRING, // Ensure content is defined as STRING type
+    type: DataTypes.STRING, 
     allowNull: false
   },
   role: {
